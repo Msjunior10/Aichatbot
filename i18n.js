@@ -71,11 +71,17 @@ const translations = {
         'welcome-message': '안녕하세요! 오늘 어떻게 도와드릴까요?',
         'input-placeholder': '여기에 질문을 입력하세요...',
         'send-button': '전송'
+    },
+    syc: {
+        'title': '⚡ MS AI ܡܥܕܪܢܐ',
+        'welcome-message': 'ܫܠܡܐ! ܐܝܟܢܐ ܡܨܐ ܐܢܐ ܕܐܥܕܪܟ ܝܘܡܢܐ؟',
+        'input-placeholder': 'ܟܬܘܒ ܫܘܐܠܟ ܗܪܟܐ...',
+        'send-button': 'ܫܕܪ'
     }
 };
 
 // RTL languages
-const rtlLanguages = ['ar'];
+const rtlLanguages = ['ar', 'syc'];
 
 // Current language
 let currentLanguage = 'en';

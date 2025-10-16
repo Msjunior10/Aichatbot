@@ -86,7 +86,7 @@ Chatboten är redo att använda direkt efter installation. Alla nödvändiga ins
 
 ## 🌍 Språkstöd
 
-Chatboten stöder 12 språk med komplett lokalisering:
+Chatboten stöder 13 språk med komplett lokalisering:
 
 | Språk | Kod | Status |
 |-------|-----|--------|
@@ -102,6 +102,7 @@ Chatboten stöder 12 språk med komplett lokalisering:
 | 中文 | zh | ✅ |
 | 日本語 | ja | ✅ |
 | 한국어 | ko | ✅ |
+| ܣܘܪܝܝܐ (Syriac) | syc | ✅ |
 
 ## 🛡️ Teknologi
 

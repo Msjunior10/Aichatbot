@@ -176,13 +176,13 @@ CMD ["npm", "start"]
 
 Detta projekt är licensierat under MIT License - se [LICENSE](LICENSE) filen för detaljer.
 
-## 🙏 Erkännanden
+## verktyg
 
 - OpenAI för GPT API
 - Express.js community
 - Alle som bidragit till open source dependencies
 
-## 📞 Support
+## Support
 
 Om du stöter på problem eller har frågor:
 

@@ -6,6 +6,7 @@ yarn-error.log*
 
 # Usage tracking/analytics
 usage/
+Usage-mappen/
 
 # Environment variables
 .env

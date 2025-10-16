@@ -103,6 +103,7 @@ Chatboten stöder 13 språk med komplett lokalisering:
 | 中文 | zh | ✅ |
 | 日本語 | ja | ✅ |
 | 한국어 | ko | ✅ |
+| ܣܘܪܝܝܐ (Syriac) | syc | ✅ |
 
 ## 🛡️ Teknologi
 

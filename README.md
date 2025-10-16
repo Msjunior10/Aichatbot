@@ -10,7 +10,7 @@ Ett elegant AI-drivet chattbot med svart/vit tema och dynamisk bakgrund. Byggt m
 ## ✨ Funktioner
 
 - **🎨 Elegant Design**: Minimalistiskt svart/vit tema med dynamiska flytande kulor i bakgrunden
-- **🌍 Flerspråksstöd**: 12 språk inklusive svenska, engelska, arabiska, spanska, franska, tyska, italienska, portugisiska, ryska, kinesiska, japanska och koreanska
+- **🌍 Flerspråksstöd**: 13 språk inklusive svenska, engelska, arabiska, syrianska (arameiska), spanska, franska, tyska, italienska, portugisiska, ryska, kinesiska, japanska och koreanska
 - **🔒 Säker Backend**: Express.js server med säkerhetsåtgärder, CORS, rate limiting och helmet
 - **⚡ Snabb Respons**: Optimerad för snabba svar med streaming och caching
 - **📱 Responsiv Design**: Fungerar perfekt på desktop, tablet och mobil
@@ -60,7 +60,7 @@ Aichatbot/
 ├── style.css             # Svart/vit tema styling
 ├── script.js             # Frontend JavaScript logik
 ├── floating-orbs.js      # Animerad bakgrund med kulor
-├── i18n.js              # Internationalisering (12 språk)
+├── i18n.js              # Internationalisering (13 språk)
 ├── .env                 # Miljövariabler (skapas av dig)
 ├── .gitignore           # Git ignore filer
 ├── package.json         # NPM dependencies och scripts
@@ -86,13 +86,14 @@ Chatboten är redo att använda direkt efter installation. Alla nödvändiga ins
 
 ## 🌍 Språkstöd
 
-Chatboten stöder 12 språk med komplett lokalisering:
+Chatboten stöder 13 språk med komplett lokalisering:
 
 | Språk | Kod | Status |
 |-------|-----|--------|
 | Svenska | sv | ✅ |
 | English | en | ✅ |
 | العربية | ar | ✅ |
+| ܣܘܪܝܝܐ (Syriac) | syc | ✅ |
 | Español | es | ✅ |
 | Français | fr | ✅ |
 | Deutsch | de | ✅ |
@@ -162,6 +163,11 @@ CMD ["npm", "start"]
 5. Öppna en Pull Request
 
 ## 📝 Changelog
+
+### v1.1.0 (2025-10-16)
+- ✨ Lagt till Syrianska (Arameiska) språkstöd
+- 🌍 RTL (Right-to-Left) stöd för semitiska språk
+- 📝 Uppdaterad dokumentation
 
 ### v1.0.0 (2025-10-16)
 - ✨ Initial release

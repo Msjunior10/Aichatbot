@@ -54,10 +54,12 @@ function sendToChatGPT() {
       let errorMsg;
       if (error.response?.status === 429) {
         errorMsg = currentLanguage === 'ar' ? 'تم تجاوز الحد الأقصى للطلبات. حاول لاحقاً.' :
+                   currentLanguage === 'syc' ? 'ܐܬܥܒܪ ܣܘܓܐܐ ܕܒܥܘܬܐ. ܢܣܐ ܬܘܒ ܒܬܪܟܢ.' :
                    currentLanguage === 'sv' ? 'För många förfrågningar. Försök igen senare.' :
                    'Too many requests. Please try again later.';
       } else {
         errorMsg = currentLanguage === 'ar' ? 'عذراً، حدث خطأ. حاول مرة أخرى.' :
+                   currentLanguage === 'syc' ? 'ܚܘܣܝܐ، ܐܬܓܫܬ ܦܘܕܝܬܐ. ܢܣܐ ܬܘܒ.' :
                    currentLanguage === 'sv' ? 'Ursäkta, ett fel uppstod. Försök igen.' :
                    currentLanguage === 'es' ? 'Lo siento, ocurrió un error. Inténtalo de nuevo.' :
                    currentLanguage === 'fr' ? 'Désolé, une erreur s\'est produite. Veuillez réessayer.' :
